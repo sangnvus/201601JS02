@@ -1,1 +1,2 @@
-Thu muc nay se chua nhung gi lien quan den tai lieu: report, test case, diagram (cai nay chac phai co thu muc con)
+Thu muc nay se chua nhung gi lien quan den tai lieu: report, test case, diagram,...
+moi nguoi co gang to chuc folder ro rang, de quan ly
