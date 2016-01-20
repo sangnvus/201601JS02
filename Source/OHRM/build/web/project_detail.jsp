@@ -253,8 +253,8 @@
                                                             <td>Apr 30, 2016</td>
                                                             <td>100%</td>
                                                             <td><span class="label label-primary">Active</span></td>
-                                                            <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
-                                                                    Detail
+                                                            <td><a href="#" data-toggle="modal" class="btn default btn-xs blue-stripe">
+                                                                    Edit
                                                                 </a></td>
                                                         </tr>
                                                         <tr>
@@ -266,7 +266,7 @@
                                                             <td>100%</td>
                                                             <td><span class="label label-primary">Active</span></td>
                                                             <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
-                                                                    Detail
+                                                                    Edit
                                                                 </a></td>
                                                         </tr>
                                                     </tbody>
@@ -292,7 +292,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                <h4 class="modal-title">Working status</h4>
+                <h4 class="modal-title">Tran Quoc Hiep</h4>
             </div>
             <div class="modal-body">
                 <!-- begin modal content -->
@@ -301,66 +301,60 @@
                         <div class="well">
                             <div class="row static-info">
                                 <div class="col-md-5 name">
+                                    Username:
+                                </div>
+                                <div class="col-md-5 value">
+                                    hieptq
+                                </div>
+                            </div>
+                            <div class="row static-info">
+                                <div class="col-md-5 name">
                                     Project:
                                 </div>
                                 <div class="col-md-5 value">
                                     OHRM
                                 </div>
                             </div>
-                            <div class="row static-info">
-                                <div class="col-md-5 name">
-                                    Position:
-                                </div>
-                                <div class="col-md-5 value">
-                                    Tester
-                                </div>
-                            </div>
-                            <div class="row static-info">
-                                <div class="col-md-5 name">
-                                    Work type:
-                                </div>
-                                <div class="col-md-5 value">
-                                    Full time
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="table-container">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th></th>
-                                    <th>Jan 2016</th>
-                                    <th>Feb 2016</th>
-                                    <th>Mar 2016</th>
-                                    <th>Apr 2016</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th>Work hour</th>
-                                    <td>112</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <th>Effort</th>
-                                    <td>100%</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="col-md-12">
+                        <div class="table-container">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Start date</th>
+                                        <th>End date</th>
+                                        <th>Effort</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="date" class="form-control datetimepicker" value="01/01/2016"></td>
+                                        <td><input type="date" class="form-control datetimepicker"></td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option selected>100%</option>
+                                                <option>50%</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+                                            <button type="button" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-minus"></span></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <!-- end modal content -->
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
             </div>
         </div>
         <!-- /.modal-content -->
