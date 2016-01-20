@@ -68,21 +68,16 @@
                                 Information
                             </a>
                         </li>
-<!--                        <li class="">
-                            <a href="#tab_2" data-toggle="tab">
-                                Planning
-                            </a>
-                        </li>-->
                         <li>
-                            <a href="#tab_3" data-toggle="tab">
-                                Assigned engineers
+                            <a href="#tab_2" data-toggle="tab">
+                                Project resource
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane active" id="tab_1">
                             <div class="row">
-                                <div class="col-md-6 col-sm-12">
+                                <div class="col-md-10 col-sm-12">
                                     <div class="portlet blue box">
                                         <div class="portlet-title">
                                             <div class="caption">
@@ -121,14 +116,6 @@
                                             </div>
                                             <div class="row static-info">
                                                 <div class="col-md-5 name">
-                                                    Certainty:
-                                                </div>
-                                                <div class="col-md-7 value">
-                                                    Contracted
-                                                </div>
-                                            </div>
-                                            <div class="row static-info">
-                                                <div class="col-md-5 name">
                                                     Start date:
                                                 </div>
                                                 <div class="col-md-7 value">
@@ -161,39 +148,32 @@
                                                     20
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <div class="portlet blue box">
-                                        <div class="portlet-title">
-                                            <div class="caption">
-                                                <i class="fa fa-cogs"></i>Requirement
-                                            </div>
-                                            <div class="actions">
-                                                <a href="#" class="btn default btn-sm">
-                                                    <i class="fa fa-pencil"></i> Edit
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="portlet-body">
                                             <div class="row static-info">
-                                                <div class="col-md-10">
+                                                <div class="col-md-5 name">
+                                                    Required skill:
+                                                </div>
+                                            </div>
+                                            <div class="row static-info">
+                                                <div class="col-md-10 value">
                                                     <table class="table table-bordered">
                                                         <tr>
                                                             <th rowspan="2">Programming language</th>
-                                                            <td>Java <span class="label label-success">main</span></td>
+                                                            <td>Java</td>
+                                                            <td>Level 2</td>
                                                         </tr>
                                                         <tr>
                                                             <td>SQL Server</td>
+                                                            <td></td>
                                                         </tr>
                                                         <tr>
                                                             <th>Foreign language</th>
                                                             <td>English</td>
+                                                            <td>Toeic 650</td>
                                                         </tr>
                                                         <tr>
                                                             <th>Soft skill</th>
                                                             <td>Group working</td>
+                                                            <td></td>
                                                         </tr>
                                                     </table>
                                                 </div>
@@ -204,104 +184,97 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="tab_2">
-                            <div class="table-container">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th>2015</th>
-                                            <th>Jan</th>
-                                            <th>Feb</th>
-                                            <th>Mar</th>
-                                            <th>Apr</th>
-                                            <th>May</th>
-                                            <th>Jun</th>
-                                            <th>Jul</th>
-                                            <th>Aug</th>
-                                            <th>Sep</th>
-                                            <th>Oct</th>
-                                            <th>Nov</th>
-                                            <th>Dec</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th>Developer</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td><a href="#" class="btn default btn-xs blue-stripe">Edit</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Tester</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="portlet">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="fa fa-cogs"></i>Allocated resource
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body">
+                                            <div class="table-container">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Total</th>
+                                                            <th>Jan 2016</th>
+                                                            <th>Feb 2016</th>
+                                                            <th>March 2016</th>
+                                                            <th>Apr 2016</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th>Engineer number</th>
+                                                            <td>8</td>
+                                                            <td>2</td>
+                                                            <td>2</td>
+                                                            <td>2</td>
+                                                            <td>2</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="tab-pane" id="tab_3">
-                            <div class="table-container">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th>Username</th>
-                                            <th>Name</th>
-                                            <!--<th>Position</th>-->
-                                            <th>Start date</th>
-                                            <th>End date</th>
-                                            <th>Effort</th>
-                                            <th>Status</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>maintx</td>
-                                            <td><a href="#">Nguyen Thi Xuan Mai</a></td>
-                                            <!--<td>Tester</td>-->
-                                            <td>Jan 1, 2016</td>
-                                            <td>Apr 30, 2016</td>
-                                            <td>100%</td>
-                                            <td><span class="label label-primary">Active</span></td>
-                                            <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
-                                                    Detail
-                                                </a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>hieptq</td>
-                                            <td><a href="#">Tran Quoc Hiep</a></td>
-                                            <!--<td>Developer</td>-->
-                                            <td>Jan 1, 2016</td>
-                                            <td>Apr 30, 2016</td>
-                                            <td>100%</td>
-                                            <td><span class="label label-primary">Active</span></td>
-                                            <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
-                                                    Detail
-                                                </a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="portlet">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="fa fa-cogs"></i>Assigned engineers
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body">
+                                            <div class="table-container">
+                                                <table class="table table-bordered" id="tbl_member">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Username</th>
+                                                            <th>Name</th>
+                                                            <!--<th>Position</th>-->
+                                                            <th>Start date</th>
+                                                            <th>End date</th>
+                                                            <th>Effort</th>
+                                                            <th>Status</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>maintx</td>
+                                                            <td><a href="#">Nguyen Thi Xuan Mai</a></td>
+                                                            <!--<td>Tester</td>-->
+                                                            <td>Jan 1, 2016</td>
+                                                            <td>Apr 30, 2016</td>
+                                                            <td>100%</td>
+                                                            <td><span class="label label-primary">Active</span></td>
+                                                            <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
+                                                                    Detail
+                                                                </a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>hieptq</td>
+                                                            <td><a href="#">Tran Quoc Hiep</a></td>
+                                                            <!--<td>Developer</td>-->
+                                                            <td>Jan 1, 2016</td>
+                                                            <td>Apr 30, 2016</td>
+                                                            <td>100%</td>
+                                                            <td><span class="label label-primary">Active</span></td>
+                                                            <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
+                                                                    Detail
+                                                                </a></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -309,6 +282,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 <!-- END PAGE CONTENT-->
 

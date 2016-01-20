@@ -10,5 +10,10 @@ $(document).ready(function() {
         "ordering": true,
         "info": false
     });
+    $('#tbl_member').DataTable({
+        "paging": true,
+        "ordering": true,
+        "info": false
+    });
 });
 

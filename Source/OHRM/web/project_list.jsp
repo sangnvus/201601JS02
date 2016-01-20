@@ -69,7 +69,6 @@
                                 <th>Code</th>
                                 <th>Name</th>
                                 <th>Customer</th>
-                                <th>Certainty</th>
                                 <th>Start date</th>
                                 <th>Duration</th>
                                 <th>Total bill (man-month)</th>
@@ -82,7 +81,6 @@
                                 <td>OTM</td>
                                 <td><a href="project_detail.jsp">Office Task Management</a></td>
                                 <td>FPT</td>
-                                <td>Bidding</td>
                                 <td>April 1, 2016</td>
                                 <td>4 months</td>
                                 <td>20</td>
@@ -93,7 +91,6 @@
                                 <td>OHRM</td>
                                 <td><a href="project_detail.jsp">Outsourcing Human Resource Management</a></td>
                                 <td>FPT</td>
-                                <td>Contracted</td>
                                 <td>Jan 1, 2016</td>
                                 <td>4 months</td>
                                 <td>20</td>
@@ -104,7 +101,6 @@
                                 <td>PCMS</td>
                                 <td><a href="project_detail.jsp">Purchase and Contract Management System</a></td>
                                 <td>FPT</td>
-                                <td>Contracted</td>
                                 <td>Sep 1, 2014</td>
                                 <td>4 months</td>
                                 <td>20</td>
