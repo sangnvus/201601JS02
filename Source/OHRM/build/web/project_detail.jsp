@@ -191,7 +191,15 @@
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <th>Engineer number</th>
+                                                            <th>Resource needed</th>
+                                                            <td>20</td>
+                                                            <td>2</td>
+                                                            <td>8</td>
+                                                            <td>8</td>
+                                                            <td>2</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Allocated</th>
                                                             <td>8</td>
                                                             <td>2</td>
                                                             <td>2</td>

@@ -65,63 +65,57 @@
                                         </div>
                                         <div class="portlet-body">
                                             <div class="row">
-                                                <div class="col-md-6 col-sm-12">
-                                                    <div class="well">
-                                                        <div class="row static-info">
-                                                            <div class="col-md-1 name">
-                                                                Duration:
+                                                <div class="col-md-12">
+                                                    <!-- BEGIN PORTLET-->
+                                                    <div class="portlet box blue">
+                                                        <div class="portlet-title">
+                                                            <div class="caption">
+                                                                <i class="fa fa-reorder"></i>Search option
                                                             </div>
-                                                            <div class="col-md-10 value">
-                                                                <div class="col-md-4">
-                                                                    <input type="date" class="form-control datepicker" value="">
-                                                                </div>
-                                                                <div class="col-md-1"><span class="glyphicon glyphicon-minus"></span></div>
-                                                                <div class="col-md-4">
-                                                                    <input type="date" class="form-control datepicker" value="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row static-info">
-                                                            <div class="col-md-1 name">
-                                                                <input type="radio" name="radio1" value="option1" />
-                                                            </div>
-                                                            <div class="col-md-10 value">
-                                                                Display all
+                                                            <div class="tools">
+                                                                <a href="javascript:;" class="collapse">
+                                                                </a>
+                                                                <a href="#portlet-config" data-toggle="modal" class="config">
+                                                                </a>
+                                                                <a href="javascript:;" class="reload">
+                                                                </a>
+                                                                <a href="javascript:;" class="remove">
+                                                                </a>
                                                             </div>
                                                         </div>
-                                                        <div class="row static-info">
-                                                            <div class="col-md-1 name">
-                                                                <input type="radio" name="radio1" value="option2" />
-                                                            </div>
-                                                            <div class="col-md-10 value">
-                                                                Filter
-                                                            </div>
-                                                        </div>
-                                                        <div class="row static-info">
-                                                            <div class="col-md-1 name">
-                                                            </div>
-                                                            <div class="col-md-10 value form-group">
-                                                                <div class="col-md-4 name">
-                                                                    Availability
+                                                        <div class="portlet-body form">
+                                                            <!-- BEGIN FORM-->
+                                                            <form action="#" class="form-horizontal form-bordered">
+                                                                <div class="form-body">
+                                                                    <div class="form-group">
+                                                                        <label class="control-label col-md-3">Duration</label>
+                                                                        <div class="col-md-4">
+                                                                            <div class="input-group input-large date-picker input-daterange" data-date-format="mm/dd/yyyy">
+                                                                                <input type="text" class="form-control" name="from" value="01/01/2016" >
+                                                                                <span class="input-group-addon">
+                                                                                    to
+                                                                                </span>
+                                                                                <input type="text" class="form-control" name="to" value="04/30/2016" >
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label class="control-label col-md-3">Filter type</label>
+                                                                        <div class="col-md-4">
+                                                                            <div class="btn-group">
+                                                                                <label class="radio-inline">
+                                                                                    <input type="radio"> All </label>
+                                                                                <label class="radio">
+                                                                                    <input type="radio"> Condition </label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="col-md-4 value">
-                                                                    <input type="text" class="form-control">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row static-info">
-                                                            <div class="col-md-1 name">
-                                                            </div>
-                                                            <div class="col-md-10 value form-group">
-                                                                <div class="col-md-4 name">
-                                                                    Skill matching
-                                                                </div>
-                                                                <div class="col-md-4 value">
-                                                                    <input type="text" class="form-control">
-                                                                </div>
-                                                            </div>
+                                                            </form>
+                                                            <!-- END FORM-->
                                                         </div>
                                                     </div>
+                                                    <!-- END PORTLET-->
                                                 </div>
                                             </div>
                                             <div class="row static-info">
@@ -132,10 +126,8 @@
                                                                 <tr>
                                                                     <th>Username</th>
                                                                     <th>Name</th>
-                                                                    <th>Role</th>
                                                                     <th>Rank</th>
                                                                     <th>Availability</th>
-                                                                    <th>Main skill matching</th>
                                                                     <th>Action</th>
                                                                 </tr>
                                                             </thead>
@@ -143,9 +135,7 @@
                                                                 <tr>
                                                                     <td>phuocnh</td>
                                                                     <td><a href="#">Nguyen Huu Phuoc</a></td>
-                                                                    <td>Developer</td>
-                                                                    <td>Dev 3</td>
-                                                                    <td>100%</td>
+                                                                    <td>DEV3</td>
                                                                     <td>100%</td>
                                                                     <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
                                                                             View profile
@@ -154,11 +144,9 @@
                                                                 <tr>
                                                                     <td>anhttk</td>
                                                                     <td><a href="#">Tran Thi Kim Anh</a></td>
-                                                                    <td>Tester</td>
-                                                                    <td>Test 3</td>
+                                                                    <td>TEST3</td>
                                                                     <td>100%</td>
-                                                                    <td>100%</td>
-                                                                    <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
+                                                                    <td><a href="#" data-toggle="modal" class="btn default btn-xs blue-stripe">
                                                                             View profile
                                                                         </a></td>
                                                                 </tr>
@@ -170,107 +158,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="tab_2">
-                            <div class="table-container">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th>2015</th>
-                                            <th>Jan</th>
-                                            <th>Feb</th>
-                                            <th>Mar</th>
-                                            <th>Apr</th>
-                                            <th>May</th>
-                                            <th>Jun</th>
-                                            <th>Jul</th>
-                                            <th>Aug</th>
-                                            <th>Sep</th>
-                                            <th>Oct</th>
-                                            <th>Nov</th>
-                                            <th>Dec</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th>Developer</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td><a href="#" class="btn default btn-xs blue-stripe">Edit</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Tester</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td>2</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="tab_3">
-                            <div class="table-container">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th>Username</th>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Start date</th>
-                                            <th>Worked hour</th>
-                                            <th>Current effort</th>
-                                            <th>Status</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>maintx</td>
-                                            <td><a href="#">Nguyen Thi Xuan Mai</a></td>
-                                            <td>Tester</td>
-                                            <td>Jan 1, 2016</td>
-                                            <td>112</td>
-                                            <td>100%</td>
-                                            <td><span class="label label-primary">Active</span></td>
-                                            <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
-                                                    Detail
-                                                </a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>hieptq</td>
-                                            <td><a href="#">Tran Quoc Hiep</a></td>
-                                            <td>Developer</td>
-                                            <td>Jan 1, 2016</td>
-                                            <td>112</td>
-                                            <td>100%</td>
-                                            <td><span class="label label-primary">Active</span></td>
-                                            <td><a href="#large" data-toggle="modal" class="btn default btn-xs blue-stripe">
-                                                    Detail
-                                                </a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
                             </div>
                         </div>
                     </div>
@@ -298,11 +185,6 @@
                                 <div class="caption">
                                     <i class="fa fa-cogs"></i>Basic information
                                 </div>
-                                <!--                                            <div class="actions">
-                                                                                <a href="#" class="btn default btn-sm">
-                                                                                    <i class="fa fa-pencil"></i> Edit
-                                                                                </a>
-                                                                            </div>-->
                             </div>
                             <div class="portlet-body">
                                 <div class="row static-info">
@@ -310,7 +192,7 @@
                                         Full name:
                                     </div>
                                     <div class="col-md-7 value">
-                                        Nguyen Thi Xuan Mai
+                                        Nguyen Huu Phuoc
                                     </div>
                                 </div>
                                 <div class="row static-info">
@@ -318,7 +200,7 @@
                                         Date of birth:
                                     </div>
                                     <div class="col-md-7 value">
-                                        Jan 1,1993
+                                        Jan 1,1989
                                     </div>
                                 </div>
                                 <div class="row static-info">
@@ -326,7 +208,7 @@
                                         Gender:
                                     </div>
                                     <div class="col-md-7 value">
-                                        Female
+                                        Male
                                     </div>
                                 </div>
                                 <div class="row static-info">
@@ -334,7 +216,7 @@
                                         Email:
                                     </div>
                                     <div class="col-md-7 value">
-                                        maintx@gmail.com
+                                        phuocnh@gmail.com
                                     </div>
                                 </div>
                                 <div class="row static-info">
@@ -350,7 +232,7 @@
                                         Phone:
                                     </div>
                                     <div class="col-md-7 value">
-                                        (+84)901234567
+                                        (+84)902345678
                                     </div>
                                 </div>
 
@@ -372,7 +254,7 @@
                                 </div>
                                 <div class="row static-info">
                                     <div class="col-md-5 name">
-                                        Skill & Interest:
+                                        Skill:
                                     </div>
                                     <div class="col-md-7 value">
                                     </div>
@@ -385,22 +267,26 @@
                                             </tr>
                                             <tr>
                                                 <td>Java</td>
-                                                <td><span class="label label-success">Interest</span></td>
+                                                <td>Level 2</td>
+                                                <!--<td><span class="label label-success">Interest</span></td>-->
                                             </tr>
                                             <tr>
                                                 <td>C#</td>
-                                                <td></td>
+                                                <td>Level 2</td>
+                                                <!--<td></td>-->
                                             </tr>
                                             <tr>
                                                 <th colspan="2">Foreign language</th>
                                             </tr>
                                             <tr>
                                                 <td>English</td>
-                                                <td><span class="label label-success">Interest</span></td>
+                                                <td> Toeic 650</td>
+                                                <!--<td><span class="label label-success">Interest</span></td>-->
                                             </tr>
                                             <tr>
                                                 <td>Japanese</td>
-                                                <td></td>
+                                                <td>N3</td>
+                                                <!--<td></td>-->
                                             </tr>
                                             <tr>
                                                 <th colspan="2">Soft skill</th>
@@ -408,6 +294,7 @@
                                             <tr>
                                                 <td>Group working</td>
                                                 <td></td>
+                                                <!--<td></td>-->
                                             </tr>
                                         </table>
                                     </div>
@@ -421,11 +308,6 @@
                                 <div class="caption">
                                     <i class="fa fa-cogs"></i>Account information
                                 </div>
-                                <!--                                            <div class="actions">
-                                                                                <a href="#" class="btn default btn-sm">
-                                                                                    <i class="fa fa-pencil"></i> Edit
-                                                                                </a>
-                                                                            </div>-->
                             </div>
                             <div class="portlet-body">
                                 <div class="row static-info">
@@ -433,7 +315,7 @@
                                         Username:
                                     </div>
                                     <div class="col-md-7 value">
-                                        maintx
+                                        phuocnh
                                     </div>
                                 </div>
                                 <div class="row static-info">
@@ -441,7 +323,7 @@
                                         Company email:
                                     </div>
                                     <div class="col-md-7 value">
-                                        maintx@company.com
+                                        phuocnh@company.com
                                     </div>
                                 </div>
                             </div>
@@ -453,27 +335,22 @@
                                 <div class="caption">
                                     <i class="fa fa-cogs"></i>Employee information
                                 </div>
-                                <!--                                            <div class="actions">
-                                                                                <a href="#" class="btn default btn-sm">
-                                                                                    <i class="fa fa-pencil"></i> Edit
-                                                                                </a>
-                                                                            </div>-->
                             </div>
                             <div class="portlet-body">
-                                <div class="row static-info">
-                                    <div class="col-md-5 name">
-                                        Role:
-                                    </div>
-                                    <div class="col-md-7 value">
-                                        Tester
-                                    </div>
-                                </div>
+                                <!--                                <div class="row static-info">
+                                                                    <div class="col-md-5 name">
+                                                                        Role:
+                                                                    </div>
+                                                                    <div class="col-md-7 value">
+                                                                        Tester
+                                                                    </div>
+                                                                </div>-->
                                 <div class="row static-info">
                                     <div class="col-md-5 name">
                                         Rank:
                                     </div>
                                     <div class="col-md-7 value">
-                                        Test 3
+                                        TEST3
                                     </div>
                                 </div>
                             </div>
@@ -484,7 +361,84 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn default" data-dismiss="modal">Close</button>
-                <a href="#" class="btn btn-primary">Add to project</a>
+                <a href="#large2" data-toggle="modal" class="btn btn-primary">Add to project</a>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- MODAL -->
+
+<!-- MODAL -->
+<div class="modal fade bs-modal-lg" id="large2" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">Nguyen Huu Phuoc</h4>
+            </div>
+            <div class="modal-body">
+                <!-- begin modal content -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="well">
+                            <div class="row static-info">
+                                <div class="col-md-5 name">
+                                    Username:
+                                </div>
+                                <div class="col-md-5 value">
+                                    phuocnh
+                                </div>
+                            </div>
+                            <div class="row static-info">
+                                <div class="col-md-5 name">
+                                    Project:
+                                </div>
+                                <div class="col-md-5 value">
+                                    OHRM
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="table-container">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Start date</th>
+                                        <th>End date</th>
+                                        <th>Effort</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="date" class="form-control datetimepicker" value="01/01/2016"></td>
+                                        <td><input type="date" class="form-control datetimepicker"></td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option selected>100%</option>
+                                                <option>50%</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+                                            <button type="button" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-minus"></span></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- end modal content -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
             </div>
         </div>
         <!-- /.modal-content -->

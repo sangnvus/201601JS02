@@ -36,8 +36,16 @@ License: You must have a valid license purchased only from themeforest(the above
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
         <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="assets/plugins/data-tables/DT_bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+
+        <link href="assets/plugins/data-tables/DT_bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="assets/plugins/clockface/css/clockface.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-datepicker/css/datepicker.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-colorpicker/css/colorpicker.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-datetimepicker/css/datetimepicker.css"/>
+        
         <!-- END GLOBAL MANDATORY STYLES -->
         <!-- BEGIN THEME STYLES -->
         <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>

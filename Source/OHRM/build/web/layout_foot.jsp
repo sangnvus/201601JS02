@@ -29,20 +29,31 @@
 <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
 <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/plugins/data-tables/jquery.dataTables.min.js" type="text/javascript"></script>
-<script src="assets/plugins/data-tables/DT_bootstrap.js" type="text/javascript"></script>
-<script src="assets/scripts/custom/ohrm-custom.js" type="text/javascript"></script>
 <script src="assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
 <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
 <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
 <script src="assets/plugins/jquery.cokie.min.js" type="text/javascript"></script>
 <script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+
+<script src="assets/plugins/data-tables/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src="assets/plugins/data-tables/DT_bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+<script type="text/javascript" src="assets/plugins/clockface/js/clockface.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
 <!-- END CORE PLUGINS -->
 <script src="assets/scripts/core/app.js"></script>
+<script src="assets/scripts/custom/components-pickers.js"></script>
+<script src="assets/scripts/custom/ohrm-custom.js" type="text/javascript"></script>
 <script>
     jQuery(document).ready(function() {
         App.init();
         TableAdvanced.init();
+        ComponentsPickers.init();
     });
 </script>
 <!-- END JAVASCRIPTS -->
