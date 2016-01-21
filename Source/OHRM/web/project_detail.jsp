@@ -42,22 +42,6 @@
                             Back
                         </span>
                     </a>
-                    <div class="btn-group">
-                        <a class="btn default yellow-stripe" href="#" data-toggle="dropdown">
-                            <i class="fa fa-cog"></i>
-                            <span class="hidden-480">
-                                Tools
-                            </span>
-                            <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="dropdown-menu pull-right">
-                            <li>
-                                <a href="project_add_engineer.jsp">
-                                    Add more engineer
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <div class="portlet-body">
@@ -201,7 +185,7 @@
                                                             <th>Total</th>
                                                             <th>Jan 2016</th>
                                                             <th>Feb 2016</th>
-                                                            <th>March 2016</th>
+                                                            <th>Mar 2016</th>
                                                             <th>Apr 2016</th>
                                                         </tr>
                                                     </thead>
@@ -227,6 +211,11 @@
                                         <div class="portlet-title">
                                             <div class="caption">
                                                 <i class="fa fa-cogs"></i>Assigned engineers
+                                            </div>
+                                            <div class="actions">
+                                                <a href="project_add_engineer.jsp" class="btn default yellow-stripe">
+                                                    Add more engineer
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="portlet-body">

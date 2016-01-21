@@ -72,7 +72,7 @@
                                 <th>Start date</th>
                                 <th>Duration</th>
                                 <th>Total bill (man-month)</th>
-                                <th>Resource status</th>
+                                <th>Resource needed</th>
                                 <th>Status</th>
                             </tr>
                         </thead>

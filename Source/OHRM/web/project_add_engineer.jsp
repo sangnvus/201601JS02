@@ -52,11 +52,6 @@
                                 Add more engineer
                             </a>
                         </li>
-                        <!--                        <li class="">
-                                                    <a href="#tab_2" data-toggle="tab">
-                                                        Search all
-                                                    </a>
-                                                </li>-->
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane active" id="tab_1">
