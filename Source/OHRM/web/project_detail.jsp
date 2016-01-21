@@ -54,6 +54,11 @@
                         </li>
                         <li>
                             <a href="#tab_2" data-toggle="tab">
+                                Plan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab_3" data-toggle="tab">
                                 Project resource
                             </a>
                         </li>
@@ -134,6 +139,14 @@
                                             </div>
                                             <div class="row static-info">
                                                 <div class="col-md-5 name">
+                                                    Programming language:
+                                                </div>
+                                                <div class="col-md-7 value">
+                                                    JAVA
+                                                </div>
+                                            </div>
+<!--                                            <div class="row static-info">
+                                                <div class="col-md-5 name">
                                                     Required skill:
                                                 </div>
                                             </div>
@@ -161,13 +174,253 @@
                                                         </tr>
                                                     </table>
                                                 </div>
-                                            </div>
+                                            </div>-->
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab_2">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="portlet">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="fa fa-cogs"></i>Resource plan
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body">
+                                            <div class="row static-info">
+                                                <div class="col-md-8">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-bordered">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th colspan="2"></th>
+                                                                    <th>Jan 2016</th>
+                                                                    <th>Feb 2016</th>
+                                                                    <th>Mar 2016</th>
+                                                                    <th>Apr 2016</th>
+                                                                    <th>Total</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th colspan="2">Need</th>
+                                                                    <td>2</td>
+                                                                    <td>8</td>
+                                                                    <td>8</td>
+                                                                    <td>2</td>
+                                                                    <td>20</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th colspan="2">Allocated</th>
+                                                                    <td>2</td>
+                                                                    <td>2</td>
+                                                                    <td>2</td>
+                                                                    <td>2</td>
+                                                                    <td>8</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th colspan="2">Recruitment</th>
+                                                                    <td>0</td>
+                                                                    <td>6</td>
+                                                                    <td>6</td>
+                                                                    <td>0</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                                <%-- divider --%>
+                                                                <tr>
+                                                                    <th rowspan="3">PM</th>
+                                                                    <th>Need</th>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Allocated</th>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Recruitment</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <%-- divider --%>
+                                                                <tr>
+                                                                    <th rowspan="3">DEV1</th>
+                                                                    <th>Need</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Allocated</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Recruitment</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <%-- divider --%>
+                                                                <tr>
+                                                                    <th rowspan="3">DEV2</th>
+                                                                    <th>Need</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Allocated</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Recruitment</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <%-- divider --%>
+                                                                <tr>
+                                                                    <th rowspan="3">DEV3</th>
+                                                                    <th>Need</th>
+                                                                    <td>2</td>
+                                                                    <td>4</td>
+                                                                    <td>4</td>
+                                                                    <td>2</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Allocated</th>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Recruitment</th>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                    <td>1</td>
+                                                                </tr>
+                                                                <%-- divider --%>
+                                                                <tr>
+                                                                    <th rowspan="3">TEST1</th>
+                                                                    <th>Need</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Allocated</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Recruitment</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <%-- divider --%>
+                                                                <tr>
+                                                                    <th rowspan="3">TEST2</th>
+                                                                    <th>Need</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Allocated</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Recruitment</th>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                </tr>
+                                                                <%-- divider --%>
+                                                                <tr>
+                                                                    <th rowspan="3">TEST3</th>
+                                                                    <th>Need</th>
+                                                                    <td>2</td>
+                                                                    <td>4</td>
+                                                                    <td>4</td>
+                                                                    <td>2</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Allocated</th>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Recruitment</th>
+                                                                    <td>1</td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                    <td>1</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="well">
+                                                        <div class="row static-info align-reverse">
+                                                            <div class="col-md-5 name">
+                                                                Total bill:
+                                                            </div>
+                                                            <div class="col-md-7 value">
+                                                                20MM
+                                                            </div>
+                                                        </div>
+                                                        <div class="row static-info align-reverse">
+                                                            <div class="col-md-5 name">
+                                                                Duration:
+                                                            </div>
+                                                            <div class="col-md-7 value">
+                                                                Jan 1,2016 - Apr 30,2016
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab_3">
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="portlet">
@@ -191,7 +444,7 @@
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <th>Resource needed</th>
+                                                            <th>Need</th>
                                                             <td>20</td>
                                                             <td>2</td>
                                                             <td>8</td>

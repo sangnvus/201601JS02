@@ -65,22 +65,12 @@
                                         </div>
                                         <div class="portlet-body">
                                             <div class="row">
-                                                <div class="col-md-12">
+                                                <div class="col-md-6 col-sm-12">
                                                     <!-- BEGIN PORTLET-->
-                                                    <div class="portlet box blue">
+                                                    <div class="portlet">
                                                         <div class="portlet-title">
                                                             <div class="caption">
-                                                                <i class="fa fa-reorder"></i>Search option
-                                                            </div>
-                                                            <div class="tools">
-                                                                <a href="javascript:;" class="collapse">
-                                                                </a>
-                                                                <a href="#portlet-config" data-toggle="modal" class="config">
-                                                                </a>
-                                                                <a href="javascript:;" class="reload">
-                                                                </a>
-                                                                <a href="javascript:;" class="remove">
-                                                                </a>
+                                                                <i class="fa fa-search"></i>Duration
                                                             </div>
                                                         </div>
                                                         <div class="portlet-body form">
@@ -99,15 +89,71 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                </div>
+                                                            </form>
+                                                            <!-- END FORM-->
+                                                        </div>
+                                                    </div>
+                                                    <!-- END PORTLET-->
+                                                </div>
+                                                <div class="col-md-6 col-sm-12">
+                                                    <!-- BEGIN PORTLET-->
+                                                    <div class="portlet">
+                                                        <div class="portlet-title">
+                                                            <div class="caption">
+                                                                <i class="fa fa-filter"></i>Filter
+                                                            </div>
+                                                            <div class="tools">
+                                                                <a href="javascript:;" class="expand">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portlet-body form" style="display: none">
+                                                            <!-- BEGIN FORM-->
+                                                            <form action="#" class="form-horizontal form-bordered">
+                                                                <div class="form-body">
                                                                     <div class="form-group">
-                                                                        <label class="control-label col-md-3">Filter type</label>
+                                                                        <label class="control-label col-md-3">Availability</label>
                                                                         <div class="col-md-4">
-                                                                            <div class="btn-group">
-                                                                                <label class="radio-inline">
-                                                                                    <input type="radio"> All </label>
-                                                                                <label class="radio">
-                                                                                    <input type="radio"> Condition </label>
-                                                                            </div>
+                                                                            <input type="text" class="form-control input-inline input-medium" value="100%">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label class="control-label col-md-3">Programming language</label>
+                                                                        <div class="col-md-4">
+                                                                            <select class="form-control">
+                                                                                <option>All</option>
+                                                                                <option>JAVA</option>
+                                                                                <option>C#</option>
+                                                                                <option>C</option>
+                                                                                <option>C++</option>
+                                                                                <option>PHP</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="col-md-4">
+                                                                            <select class="form-control">
+                                                                                <option>All</option>
+                                                                                <option>Level 1</option>
+                                                                                <option>Level 2</option>
+                                                                                <option>Level 3</option>
+                                                                                <option>Level 4</option>
+                                                                                <option>Level 5</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label class="control-label col-md-3">Rank</label>
+                                                                        <div class="col-md-4">
+                                                                            <select class="form-control">
+                                                                                <option>All</option>
+                                                                                <option>PM</option>
+                                                                                <option>DEV1</option>
+                                                                                <option>DEV2</option>
+                                                                                <option>DEV3</option>
+                                                                                <option>TEST1</option>
+                                                                                <option>TEST2</option>
+                                                                                <option>TEST3</option>
+                                                                            </select>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -275,27 +321,27 @@
                                                 <td>Level 2</td>
                                                 <!--<td></td>-->
                                             </tr>
-                                            <tr>
-                                                <th colspan="2">Foreign language</th>
-                                            </tr>
-                                            <tr>
-                                                <td>English</td>
-                                                <td> Toeic 650</td>
-                                                <!--<td><span class="label label-success">Interest</span></td>-->
-                                            </tr>
-                                            <tr>
-                                                <td>Japanese</td>
-                                                <td>N3</td>
-                                                <!--<td></td>-->
-                                            </tr>
-                                            <tr>
-                                                <th colspan="2">Soft skill</th>
-                                            </tr>
-                                            <tr>
-                                                <td>Group working</td>
-                                                <td></td>
-                                                <!--<td></td>-->
-                                            </tr>
+                                            <!--                                            <tr>
+                                                                                            <th colspan="2">Foreign language</th>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>English</td>
+                                                                                            <td> Toeic 650</td>
+                                                                                            <td><span class="label label-success">Interest</span></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>Japanese</td>
+                                                                                            <td>N3</td>
+                                                                                            <td></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <th colspan="2">Soft skill</th>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td>Group working</td>
+                                                                                            <td></td>
+                                                                                            <td></td>
+                                                                                        </tr>-->
                                         </table>
                                     </div>
                                 </div>
@@ -350,7 +396,7 @@
                                         Rank:
                                     </div>
                                     <div class="col-md-7 value">
-                                        TEST3
+                                        DEV3
                                     </div>
                                 </div>
                             </div>
