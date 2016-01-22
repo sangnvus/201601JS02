@@ -282,13 +282,13 @@ License: You must have a valid license purchased only from themeforest(the above
                             </a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="report_by_project.jsp">
-                                        by project
+                                    <a href="report_season.jsp">
+                                        mid-year report
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="report_by_engineer.jsp">
-                                        by engineer
+                                    <a href="report_annual.jsp">
+                                        annual report
                                     </a>
                                 </li>
                             </ul>
