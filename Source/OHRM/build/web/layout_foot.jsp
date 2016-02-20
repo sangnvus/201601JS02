@@ -52,7 +52,7 @@
 <script>
     jQuery(document).ready(function() {
         App.init();
-        TableAdvanced.init();
+//        TableAdvanced.init();
         ComponentsPickers.init();
     });
 </script>

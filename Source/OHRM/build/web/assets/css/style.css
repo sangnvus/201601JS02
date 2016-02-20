@@ -4353,3 +4353,10 @@ UI Loading
   line-height:20px;
   vertical-align: middle;
 }
+/* Ability inline */
+#Ability-list > li.Ability-inline:first-child{
+    padding-left: 0;
+}
+#Ability-list > li.Ability-inline{
+    display: inline-block;
+}
