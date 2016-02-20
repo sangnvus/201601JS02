@@ -67,7 +67,7 @@
                         </div>
                     </div>                                      
 
-                    <div class="form-group" id="Recruitment-Position">
+                    <div class="form-group Recruitment-Position" id="Recruitment-Position">
                         <label class="col-md-3 control-label" >Position </label>
                         
 
@@ -186,15 +186,23 @@
           var Icount = 1;        
            
           var divCopy =$("div#Recruitment-Position").clone().attr('id',+Icount);
-          $(divCopy).find('.date-picker').datepicker('destroy');
+          $(divCopy).find('.date-picker').datepicker('destroy'); // Huy truoc khi clone , clone xong khoi tao lai
           var NewDiv = $(divCopy).find("#button_Add_Position").replaceWith('<button id="button_Minus_Position" class="btn blue" type="button">-</button>').end();
                     
 //           $('#button_Add_Position').replaceWith('<button id="button_Minus_Position" class="btn blue" type="button">-</button>'); 
-            
+          $(NewDiv).find('input').val(''); // Clear Input before showing
           $("div#Recruitment-Position").after(NewDiv);
           NewDiv.find('.date-picker').datepicker();
           
           Icount = Icount+1;
+        }); 
+        
+        
+        $("div.form-body").on('click','#button_Minus_Position', function(e){
+            e.preventDefault();
+            $(e.currentTarget).parentsUntil("div.form-body").remove();
+            alert('ĐI BỤI');
+            
         });
     });
 </script>
